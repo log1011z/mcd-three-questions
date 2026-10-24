@@ -1,0 +1,165 @@
+{
+  "mode": "live",
+  "store": "麦当劳上海黄浦华旭国际大厦餐厅（只读测试门店，到店自取）",
+  "budget_cny": "25.00",
+  "selections": [
+    {
+      "label": "主推（测试条件：25元以内、鸡肉正餐）",
+      "items": [
+        {
+          "name": "麦香鸡",
+          "spec": "1个",
+          "quantity": 1,
+          "is_burger": true,
+          "nutrition": {
+            "energy": 369,
+            "unit": "kcal",
+            "serving": "1个"
+          }
+        },
+        {
+          "name": "无糖可口可乐中杯",
+          "spec": "中杯",
+          "quantity": 1,
+          "is_burger": false,
+          "nutrition": {
+            "energy": 0,
+            "unit": "kcal",
+            "serving": "中杯"
+          }
+        }
+      ],
+      "quote": {
+        "source": "calculate-price",
+        "total_cny": "13.90",
+        "queried_at": "2026-10-24T15:03:05+08:00"
+      },
+      "reason": "真实随心配套餐选择麦香鸡与中杯无糖可口可乐，符合本次设定的鸡肉和预算测试条件。",
+      "title": "经典派掌门"
+    },
+    {
+      "label": "备选（相同测试条件）",
+      "items": [
+        {
+          "name": "板烧鸡腿堡",
+          "spec": "1个",
+          "quantity": 1,
+          "is_burger": true,
+          "nutrition": {
+            "energy": 391,
+            "unit": "kcal",
+            "serving": "1个"
+          }
+        }
+      ],
+      "quote": {
+        "source": "calculate-price",
+        "total_cny": "23.50",
+        "queried_at": "2026-10-24T15:03:05+08:00"
+      },
+      "reason": "仍为鸡肉主食，单个汉堡，未额外添加饮品。"
+    },
+    {
+      "label": "换饮品测试：中杯可乐",
+      "items": [
+        {
+          "name": "麦香鸡",
+          "spec": "1个",
+          "quantity": 1,
+          "is_burger": true,
+          "nutrition": {
+            "energy": 369,
+            "unit": "kcal",
+            "serving": "1个"
+          }
+        },
+        {
+          "name": "可乐中杯",
+          "spec": "中杯",
+          "quantity": 1,
+          "is_burger": false,
+          "nutrition": {
+            "energy": 147,
+            "unit": "kcal",
+            "serving": "中杯"
+          }
+        }
+      ],
+      "quote": {
+        "source": "calculate-price",
+        "total_cny": "13.90",
+        "queried_at": "2026-10-24T15:03:25+08:00"
+      },
+      "reason": "使用同一套餐的实际可选项替换饮品，并重新调用计价。"
+    },
+    {
+      "label": "改数量测试：两份原组合",
+      "items": [
+        {
+          "name": "麦香鸡",
+          "spec": "1个",
+          "quantity": 2,
+          "is_burger": true,
+          "nutrition": {
+            "energy": 369,
+            "unit": "kcal",
+            "serving": "1个"
+          }
+        },
+        {
+          "name": "无糖可口可乐中杯",
+          "spec": "中杯",
+          "quantity": 2,
+          "is_burger": false,
+          "nutrition": {
+            "energy": 0,
+            "unit": "kcal",
+            "serving": "中杯"
+          }
+        }
+      ],
+      "quote": {
+        "source": "calculate-price",
+        "total_cny": "27.80",
+        "queried_at": "2026-10-24T15:03:25+08:00"
+      },
+      "reason": "套餐父项数量变为2；热量只按展开后的单品数量计算。"
+    },
+    {
+      "label": "Lv.3与超预算展示测试（不作为鸡肉偏好推荐）",
+      "items": [
+        {
+          "name": "芝士安格斯厚牛堡",
+          "spec": "1个",
+          "quantity": 1,
+          "is_burger": true,
+          "nutrition": {
+            "energy": 696,
+            "unit": "kcal",
+            "serving": "1个"
+          }
+        }
+      ],
+      "quote": {
+        "source": "calculate-price",
+        "total_cny": "31.50",
+        "queried_at": "2026-10-24T15:03:05+08:00"
+      },
+      "reason": "仅用于测试Lv.3展示和超预算提示，不作为本次鸡肉偏好的主推或备选。"
+    },
+    {
+      "label": "未收录新品展示测试（未核价）",
+      "items": [
+        {
+          "name": "龙焰芝士棒鸡腿堡",
+          "spec": "1个",
+          "quantity": 1,
+          "is_burger": true,
+          "nutrition": null
+        }
+      ],
+      "quote": null,
+      "reason": "该名称来自真实菜单，营养表没有同名记录，等级资料表也未收录；不以菜单标价冒充计价结果。"
+    }
+  ]
+}

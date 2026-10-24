@@ -1,0 +1,26 @@
+{
+  "mode": "demo",
+  "store": "演示门店（虚构）",
+  "budget_cny": "25.00",
+  "selections": [
+    {
+      "label": "主推",
+      "items": [
+        {"name": "原味板烧鸡腿堡", "spec": "演示单个", "quantity": 1, "is_burger": true, "nutrition": {"energy": 400, "unit": "kcal", "serving": "演示单个"}},
+        {"name": "演示饮品", "spec": "演示小杯", "quantity": 1, "is_burger": false, "nutrition": {"energy": 418.4, "unit": "kJ", "serving": "演示小杯"}}
+      ],
+      "quote": {"source": "calculate-price", "total_cny": "24.00", "queried_at": "2026-10-24T15:00:00+08:00"},
+      "reason": "本演示假定用户选择25元以内的鸡肉正餐；这些数值不是实际报价或营养信息。",
+      "title": "经典派掌门"
+    },
+    {
+      "label": "备选",
+      "items": [
+        {"name": "麦香鸡", "spec": "演示单个", "quantity": 1, "is_burger": true, "nutrition": {"energy": 1464.4, "unit": "kJ", "serving": "演示单个"}},
+        {"name": "演示新品小食", "spec": "演示一份", "quantity": 1, "is_burger": false, "nutrition": null}
+      ],
+      "quote": {"source": "calculate-price", "total_cny": "20.00", "queried_at": "2026-10-24T15:00:00+08:00"},
+      "reason": "演示备选保留鸡肉偏好，展示更低价格和部分营养数据缺失时的输出。"
+    }
+  ]
+}

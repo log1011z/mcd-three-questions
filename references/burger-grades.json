@@ -1,0 +1,36 @@
+{
+  "label": "项目自定义用料档次",
+  "matching": "exact_name_or_registered_alias",
+  "entries": [
+    {
+      "name": "安格斯MAX厚牛堡",
+      "aliases": ["安格斯厚牛芝士堡", "安格斯厚牛培根堡", "芝士安格斯厚牛堡", "培根安格斯厚牛堡", "安格斯MAX厚牛芝士堡", "安格斯MAX厚牛培根堡"],
+      "level": 3,
+      "label": "臻选",
+      "reason": "官方定位为高端汉堡线，采用安格斯牛肉。",
+      "source_title": "麦当劳中国：安格斯MAX厚牛堡家族",
+      "source_url": "https://www.mcdonalds.com.cn/know_your_icon/Angus-family",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "name": "板烧鸡腿堡",
+      "aliases": ["原味板烧鸡腿堡"],
+      "level": 2,
+      "label": "升级",
+      "reason": "官方明确介绍整块原切鸡腿肉及煎制工艺。",
+      "source_title": "麦当劳中国：板烧鸡腿堡全新升级（2024-10-08）",
+      "source_url": "https://www.mcdonalds.com.cn/news/20241008-Premium-Grilled-Chicken-Sandwich-FARMERBOB",
+      "checked_on": "2026-10-24"
+    },
+    {
+      "name": "麦香鸡",
+      "aliases": [],
+      "level": 1,
+      "label": "经典",
+      "reason": "经典鸡肉、生菜配置；此档为项目的常规配置分类。",
+      "source_title": "麦当劳中国：麦香鸡产品介绍",
+      "source_url": "https://www.mcdonalds.com.cn/product/McChicken",
+      "checked_on": "2026-10-24"
+    }
+  ]
+}
